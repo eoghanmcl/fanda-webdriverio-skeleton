@@ -11,3 +11,11 @@ WebdriverIO is a progressive automation framework built to automate modern web a
 - Open project folder
 
 cd projectfolder
+
+- Install npm
+
+npm install
+
+- Run WebDriverIO
+
+npx wdio wdio.conf.ts
