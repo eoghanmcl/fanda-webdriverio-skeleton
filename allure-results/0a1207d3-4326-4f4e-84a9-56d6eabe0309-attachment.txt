@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "#header > div > div > div.header__right-panel.js-header-right-panel > div.js-get-in-touch-container.header__get-in-touch-container > a"
+}
