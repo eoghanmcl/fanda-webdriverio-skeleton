@@ -12,7 +12,7 @@ When(/^I accept cookies(.+)$/, async function (cookiespopup) {
     await browser.pause(2000)
 });
 
-Then(/^I should see the page header (.+)$/, async function (pageheader) {
+Then(/^I should see a page header that reads (.+)$/, async function (pageheader) {
     const header = await $('#hero > div.hero__container.container > div > div > div > h1')
     expect(await header.getText()).toEqual(pageheader)
     await browser.pause(2000)

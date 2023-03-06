@@ -4,7 +4,7 @@ Feature: Kainos homepage
 
         Given I open a browser and enter the Kainos URL <homepage>
         When I accept cookies <cookiespopup>
-        Then I should see the page header <pageheader>
+        Then I should see a page header that reads: <pageheader>
 
         Examples:
         | homepage                | cookiespopup | pageheader                              |
