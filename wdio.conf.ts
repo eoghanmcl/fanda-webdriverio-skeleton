@@ -31,7 +31,7 @@ export const config: Options.Testrunner = {
     // will be called from there.
     //
     specs: [
-        './features/KainosContactForm.feature'
+        './features/**/KainosContactForm.feature'
     ],
     // Patterns to exclude.
     exclude: [
