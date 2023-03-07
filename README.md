@@ -36,6 +36,7 @@ Usage
 ---
 
 Opens URL:
+
 ```await browser.url(url)```
 
 Maximises window:
@@ -43,16 +44,20 @@ Maximises window:
 ```await browser.maximizeWindow()```
 
 Adds delay:
+
 ```await browser.pause('durationInMilliseconds')```
 
 Selects element:
+
 ```await $('element-name')```
 
 Clicks element:
+
 ```await var.click()```
 
 Asserts element:
-```await var.getText()).toEqual(func)
+
+```await var.getText()).toEqual(func)```
 
 
 Additional Info
