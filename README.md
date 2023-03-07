@@ -35,11 +35,27 @@ Run tests:
 Usage
 ---
 
+Opens URL:
+```await browser.url(url)```
 
+Maximises window:
+
+```await browser.maximizeWindow()```
+
+Adds delay:
+```await browser.pause('durationInMilliseconds')```
+
+Selects element:
+```await $('element-name')```
+
+Clicks element:
+```await var.click()```
+
+Asserts element:
+```await var.getText()).toEqual(func)
 
 
 Additional Info
 ---
 
 - You can change the test you would like to run from the <i>wdio.conf.ts</i> file (line 152). 
-- 
