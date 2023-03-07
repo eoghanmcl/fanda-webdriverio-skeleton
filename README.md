@@ -11,56 +11,55 @@ You can use WebdriverIO to automate:
 Prerequisites
 ---
 
-- Install node & npm. 
+Install node & npm.
 
 
 Installation
 ---
 
-Change to project directory
+Change to project directory:
 
 ```cd projectdir```
 
-Install packages
+Install packages:
 
 ```npm install```
 
-Run wdio
+Run WebdriverIO:
 
 ```npx wdio wdio.conf.ts```
 
 
-API Commands
+Usage
 ---
 
-Loads URL
+Loads URL:
 
 ```await browser.url(targetUrl)```
 
-Maximises window
+Maximises window:
 
 ```await browser.maximizeWindow()```
 
-Pauses execution
+Pauses execution:
 
 ```await browser.pause('durationInMilliseconds')```
 
-Selects element
+Selects element:
 
 ```await $('elementName')```
 
-Clicks element
+Clicks element:
 
 ```await var.click()```
 
-Asserts element
+Asserts element:
 
 ```await var.getText()).toEqual(func)```
-
-Other commands can be found at https://webdriver.io/docs/api.
 
 
 Additional Info
 ---
 
 - You can change the test you would like to run from the <i>wdio.conf.ts</i> file (line 152).
+- Other API commands can be found at https://webdriver.io/docs/api.
