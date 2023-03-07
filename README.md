@@ -20,15 +20,12 @@ Installation
 ---
 
 Change to project folder:
-
 ```cd projectdir```
 
 Install packages:
-
 ```npm install```
 
 Run tests:
-
 ```npx wdio wdio.conf.ts```
 
 
@@ -36,27 +33,21 @@ Usage
 ---
 
 Opens URL:
-
-```await browser.url(url)```
+```await browser.url(target-url)```
 
 Maximises window:
-
 ```await browser.maximizeWindow()```
 
 Adds delay:
-
 ```await browser.pause('durationInMilliseconds')```
 
 Selects element:
-
 ```await $('element-name')```
 
 Clicks element:
-
 ```await var.click()```
 
 Asserts element:
-
 ```await var.getText()).toEqual(func)```
 
 
