@@ -57,7 +57,7 @@ Asserts element
 
 ```await var.getText()).toEqual(func)```
 
-Other commands be found at https://webdriver.io/docs/api.
+Other commands can be found at https://webdriver.io/docs/api.
 
 
 Additional Info
