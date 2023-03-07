@@ -2,20 +2,44 @@
 
 WebdriverIO is a progressive automation framework built to automate modern web and mobile applications. It simplifies the interaction with your app and provides a set of plugins that help you create a scalable, robust and stable test suite.
 
-# Prerequisites
+You can use WebdriverIO to automate:
 
-- node, npm
+- modern web applications
+- hybrid or native mobile applications running in an emulator/simulator or on a real device
+- native desktop applications
+- unit or component testing of web components in the browser
 
-# Installation
 
-- Open project folder
+Prerequisites
+---
 
-cd projectfolder
+Install node & npm. 
 
-- Install npm
 
-npm install
+Installation
+---
 
-- Run WebDriverIO
+Change to project folder:
 
-npx wdio wdio.conf.ts
+```cd projectdir```
+
+Install packages:
+
+```npm install```
+
+Run tests:
+
+```npx wdio wdio.conf.ts```
+
+
+Usage
+---
+
+
+
+
+Additional Info
+---
+
+- You can change the test you would like to run from the <i>wdio.conf.ts</i> file (line 152). 
+- 
