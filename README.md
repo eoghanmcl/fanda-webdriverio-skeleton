@@ -3,55 +3,64 @@
 WebdriverIO is a progressive automation framework built to automate modern web and mobile applications. It simplifies the interaction with your app and provides a set of plugins that help you create a scalable, robust and stable test suite.
 
 You can use WebdriverIO to automate:
-
-- modern web applications
-- hybrid or native mobile applications running in an emulator/simulator or on a real device
-- native desktop applications
-- unit or component testing of web components in the browser
-
+- Modern web applications
+- Hybrid or native mobile applications running in an emulator/simulator or on a real device
+- Native desktop applications
+- Unit or component testing of web components in the browser
 
 Prerequisites
 ---
 
-Install node & npm. 
+- Install node & npm. 
 
 
 Installation
 ---
 
-Change to project folder:
+Change to project directory
+
 ```cd projectdir```
 
-Install packages:
+Install packages
+
 ```npm install```
 
-Run tests:
+Run wdio
+
 ```npx wdio wdio.conf.ts```
 
 
-Usage
+API Commands
 ---
 
-Opens URL:
-```await browser.url(target-url)```
+Loads URL
 
-Maximises window:
+```await browser.url(targetUrl)```
+
+Maximises window
+
 ```await browser.maximizeWindow()```
 
-Adds delay:
+Pauses execution
+
 ```await browser.pause('durationInMilliseconds')```
 
-Selects element:
-```await $('element-name')```
+Selects element
 
-Clicks element:
+```await $('elementName')```
+
+Clicks element
+
 ```await var.click()```
 
-Asserts element:
+Asserts element
+
 ```await var.getText()).toEqual(func)```
+
+Other commands be found at https://webdriver.io/docs/api.
 
 
 Additional Info
 ---
 
-- You can change the test you would like to run from the <i>wdio.conf.ts</i> file (line 152). 
+- You can change the test you would like to run from the <i>wdio.conf.ts</i> file (line 152).
