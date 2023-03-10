@@ -1,4 +1,0 @@
-{
-  "using": "css selector",
-  "value": "#hero > div.hero__container.container > div > div > div > h1"
-}

@@ -1,4 +1,0 @@
-{
-  "using": "css selector",
-  "value": "Form__Element__ValidationError"
-}

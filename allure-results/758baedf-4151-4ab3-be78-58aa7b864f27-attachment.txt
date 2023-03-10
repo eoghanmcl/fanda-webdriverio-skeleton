@@ -1,4 +1,0 @@
-{
-  "using": "css selector",
-  "value": "#__field_17228_desc"
-}
